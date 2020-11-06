@@ -1,0 +1,7 @@
+.container {
+  margin: auto 5%;
+}
+
+.imageSlider .slick-next {
+  display: none;
+}

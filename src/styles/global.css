@@ -1,0 +1,71 @@
+@import url("https://use.typekit.net/qmj1ktm.css");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* background-color: lavenderblush; */
+  font-family: "proxima-nova" !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2e2e2e;
+}
+
+img {
+  max-width: 100%;
+}
+
+.mw-400 {
+  max-width: 400px;
+}
+
+.logo-container {
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.logo__link {
+  text-decoration: none;
+  background-image: none;
+}
+
+.logo__link:hover {
+  text-decoration: none;
+}
+
+.pink-highlighted-text {
+  display: inline-block;
+  background-color: #ed2e85;
+  margin: 0;
+  color: white;
+  padding: 5px 10px;
+  align-self: baseline;
+  /* width: 100px; */
+}
+
+.pink-text {
+  color: #ed2e85;
+}
+
+.small-white-text {
+  color: white;
+  font-size: 14px;
+  margin: 0;
+  align-self: baseline;
+}
+
+.slick-next {
+  top: 0 !important;
+  right: 25px !important;
+}
+
+.slick-prev {
+  top: 0 !important;
+  left: 25px !important;
+}

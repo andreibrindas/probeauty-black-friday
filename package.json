@@ -15,8 +15,16 @@
   },
   "dependencies": {
     "gatsby": "^2.25.3",
+    "gatsby-plugin-react-helmet": "^3.3.14",
+    "gatsby-plugin-typography": "^2.5.13",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "react-slick": "^0.27.13",
+    "react-typography": "^0.16.19",
+    "slick-carousel": "^1.8.1",
+    "typography": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "2.1.2"
