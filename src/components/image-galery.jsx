@@ -19,12 +19,12 @@ export default class ImageGallery extends Component {
         <div>
           <h2 className={imageGalleryStyles.header}>Oferte atractive</h2>
           <Slider {...settings} className={imageGalleryStyles.imageSlider}>
-            <Product name="test 1"></Product>
-            <Product name="test 2"></Product>
-            <Product name="test 3"></Product>
-            <Product name="test 4"></Product>
-            <Product name="test 5"></Product>
-            <Product name="test 6"></Product>
+            <Product productName="test 1" productImage='product-1'></Product>
+            <Product productName="test 2" productImage='product-1'></Product>
+            <Product productName="test 3" productImage='product-1'></Product>
+            <Product productName="test 4" productImage='product-1'></Product>
+            <Product productName="test 5" productImage='product-1'></Product>
+            <Product productName="test 6" productImage='product-1'></Product>
           </Slider>
         </div>
       );
