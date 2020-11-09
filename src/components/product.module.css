@@ -1,7 +1,25 @@
 .productContainer {
   background-color: white;
-  margin: 0 40px;
-  padding: 30px 20px;
+  margin: 0 10px;
+  /* min-width: 300px; */
 }
 .productImage {
+}
+
+.header {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.productTopContainer {
+  padding: 30px 20px;
+}
+
+.productBottomContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  text-align: center;
+  border-top: 1px solid #747474;
+  padding: 30px 20px;
 }

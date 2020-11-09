@@ -1,8 +1,8 @@
-import React from "react";
+import React from "react"
 // import Layout from '../components/layout';
-import { Helmet } from 'react-helmet'
-import Hero from '../components/hero';
-import ImageGallery from '../components/image-galery'
+import { Helmet } from "react-helmet"
+import Hero from "../components/hero"
+import ImageGallery from "../components/image-galery"
 
 export default function Home() {
   return (
@@ -21,16 +21,13 @@ export default function Home() {
         />
       </Helmet>
       <Hero></Hero>
-  
-      <div className="teaser teaser-container">
 
+      <div className="teaser teaser-container">
         <div className="teaser__left">
           <ImageGallery></ImageGallery>
         </div>
         <div className="teaser__right"></div>
-
       </div>
-
     </div>
   )
 }
