@@ -12,8 +12,34 @@ export default class ImageGallery extends Component {
       // dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 3,
+      slidesToShow: 2.5,
       slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1260,
+          settings: {
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 950,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 770,
+          settings: {
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 500,
+          settings: {
+            slidesToShow: 1.5,
+          },
+        },
+      ],
     }
     return (
       <div>

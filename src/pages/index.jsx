@@ -26,7 +26,14 @@ export default function Home() {
         <div className="teaser__left">
           <ImageGallery></ImageGallery>
         </div>
-        <div className="teaser__right"></div>
+        <div className="teaser__right">
+          <h2 class="white-text form-heading">
+            ABONEAZĂ-TE <span className="pink-text">ACUM!</span>
+          </h2>
+          <p className="small-white-text">
+            Orci varius natoque penatibus et magnis dis parturient.
+          </p>
+        </div>
       </div>
     </div>
   )
